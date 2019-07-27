@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [amazon Automation Test Suite]">
+  <listeners>
+    <listener class-name="amazon.extend.report.TestListener"/>
+  </listeners>
+  <test name="amazon Test Cases(failed)">
+    <classes>
+      <class name="com.smarttech.AmazonLogin">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="Test8"/>
+          <include name="Test6"/>
+          <include name="Test9"/>
+          <include name="Test11"/>
+          <include name="Test4"/>
+          <include name="Test7"/>
+          <include name="Test13"/>
+          <include name="Test2"/>
+          <include name="Test10"/>
+          <include name="Test5"/>
+          <include name="Test12"/>
+          <include name="Test3"/>
+          <include name="dbTabledelete"/>
+        </methods>
+      </class> <!-- com.smarttech.AmazonLogin -->
+    </classes>
+  </test> <!-- amazon Test Cases(failed) -->
+</suite> <!-- Failed suite [amazon Automation Test Suite] -->
