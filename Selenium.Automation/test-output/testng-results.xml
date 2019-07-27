@@ -1,80 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="13" passed="12">
+<testng-results skipped="1" failed="1" total="13" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="amazon Automation Test Suite" duration-ms="75508" started-at="2019-07-06T15:03:27Z" finished-at="2019-07-06T15:04:43Z">
+  <suite name="amazon Automation Test Suite" duration-ms="94430" started-at="2019-07-27T18:59:36Z" finished-at="2019-07-27T19:01:11Z">
     <groups>
     </groups>
-    <test name="amazon Test Cases" duration-ms="75508" started-at="2019-07-06T15:03:27Z" finished-at="2019-07-06T15:04:43Z">
+    <test name="amazon Test Cases" duration-ms="94430" started-at="2019-07-27T18:59:36Z" finished-at="2019-07-27T19:01:11Z">
       <class name="com.smarttech.AmazonLogin">
-        <test-method status="PASS" signature="dbTabledelete()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="dbTabledelete" is-config="true" duration-ms="817" started-at="2019-07-06T11:03:26Z" finished-at="2019-07-06T11:03:27Z">
+        <test-method status="PASS" signature="dbTabledelete()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="dbTabledelete" is-config="true" duration-ms="949" started-at="2019-07-27T14:59:35Z" finished-at="2019-07-27T14:59:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbTabledelete -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="setUp" duration-ms="28072" started-at="2019-07-06T11:03:27Z" finished-at="2019-07-06T11:03:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="setUp" duration-ms="38717" started-at="2019-07-27T14:59:36Z" finished-at="2019-07-27T15:00:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Test2()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test2" duration-ms="1090" started-at="2019-07-06T11:03:55Z" depends-on-methods="com.smarttech.AmazonLogin.setUp" finished-at="2019-07-06T11:03:56Z">
+        <test-method status="PASS" signature="Test2()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test2" duration-ms="1705" started-at="2019-07-27T15:00:15Z" depends-on-methods="com.smarttech.AmazonLogin.setUp" finished-at="2019-07-27T15:00:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="Test3()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test3" duration-ms="4256" started-at="2019-07-06T11:03:56Z" depends-on-methods="com.smarttech.AmazonLogin.Test2" finished-at="2019-07-06T11:04:01Z">
+        <test-method status="PASS" signature="Test3()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test3" duration-ms="6670" started-at="2019-07-27T15:00:17Z" depends-on-methods="com.smarttech.AmazonLogin.Test2" finished-at="2019-07-27T15:00:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method status="PASS" signature="Test4()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test4" duration-ms="1897" started-at="2019-07-06T11:04:01Z" depends-on-methods="com.smarttech.AmazonLogin.Test3" finished-at="2019-07-06T11:04:02Z">
+        <test-method status="PASS" signature="Test4()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test4" duration-ms="3636" started-at="2019-07-27T15:00:23Z" depends-on-methods="com.smarttech.AmazonLogin.Test3" finished-at="2019-07-27T15:00:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test4 -->
-        <test-method status="PASS" signature="Test5()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test5" duration-ms="2478" started-at="2019-07-06T11:04:02Z" depends-on-methods="com.smarttech.AmazonLogin.Test4" finished-at="2019-07-06T11:04:05Z">
+        <test-method status="PASS" signature="Test5()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test5" duration-ms="3857" started-at="2019-07-27T15:00:27Z" depends-on-methods="com.smarttech.AmazonLogin.Test4" finished-at="2019-07-27T15:00:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test5 -->
-        <test-method status="PASS" signature="Test6()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test6" duration-ms="1054" started-at="2019-07-06T11:04:05Z" depends-on-methods="com.smarttech.AmazonLogin.Test5" finished-at="2019-07-06T11:04:06Z">
+        <test-method status="PASS" signature="Test6()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test6" duration-ms="915" started-at="2019-07-27T15:00:31Z" depends-on-methods="com.smarttech.AmazonLogin.Test5" finished-at="2019-07-27T15:00:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test6 -->
-        <test-method status="PASS" signature="Test7()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test7" duration-ms="273" started-at="2019-07-06T11:04:06Z" depends-on-methods="com.smarttech.AmazonLogin.Test6" finished-at="2019-07-06T11:04:06Z">
+        <test-method status="PASS" signature="Test7()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test7" duration-ms="293" started-at="2019-07-27T15:00:32Z" depends-on-methods="com.smarttech.AmazonLogin.Test6" finished-at="2019-07-27T15:00:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test7 -->
-        <test-method status="PASS" signature="Test8()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test8" duration-ms="184" started-at="2019-07-06T11:04:06Z" depends-on-methods="com.smarttech.AmazonLogin.Test7" finished-at="2019-07-06T11:04:06Z">
+        <test-method status="PASS" signature="Test8()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test8" duration-ms="185" started-at="2019-07-27T15:00:32Z" depends-on-methods="com.smarttech.AmazonLogin.Test7" finished-at="2019-07-27T15:00:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test8 -->
-        <test-method status="PASS" signature="Test9()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test9" duration-ms="97" started-at="2019-07-06T11:04:06Z" depends-on-methods="com.smarttech.AmazonLogin.Test8" finished-at="2019-07-06T11:04:07Z">
+        <test-method status="PASS" signature="Test9()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test9" duration-ms="151" started-at="2019-07-27T15:00:32Z" depends-on-methods="com.smarttech.AmazonLogin.Test8" finished-at="2019-07-27T15:00:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test9 -->
-        <test-method status="PASS" signature="Test10()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test10" duration-ms="135" started-at="2019-07-06T11:04:07Z" depends-on-methods="com.smarttech.AmazonLogin.Test9" finished-at="2019-07-06T11:04:07Z">
+        <test-method status="PASS" signature="Test10()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test10" duration-ms="174" started-at="2019-07-27T15:00:32Z" depends-on-methods="com.smarttech.AmazonLogin.Test9" finished-at="2019-07-27T15:00:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test10 -->
-        <test-method status="PASS" signature="Test11()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test11" duration-ms="73" started-at="2019-07-06T11:04:07Z" depends-on-methods="com.smarttech.AmazonLogin.Test10" finished-at="2019-07-06T11:04:07Z">
+        <test-method status="PASS" signature="Test11()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test11" duration-ms="91" started-at="2019-07-27T15:00:32Z" depends-on-methods="com.smarttech.AmazonLogin.Test10" finished-at="2019-07-27T15:00:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test11 -->
-        <test-method status="PASS" signature="Test12()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test12" duration-ms="18025" started-at="2019-07-06T11:04:07Z" depends-on-methods="com.smarttech.AmazonLogin.Test11" finished-at="2019-07-06T11:04:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test12 -->
-        <test-method status="FAIL" signature="Test13()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test13" duration-ms="16849" started-at="2019-07-06T11:04:25Z" depends-on-methods="com.smarttech.AmazonLogin.Test12" finished-at="2019-07-06T11:04:42Z">
-          <exception class="java.lang.IndexOutOfBoundsException">
+        <test-method status="FAIL" signature="Test12()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test12" duration-ms="36019" started-at="2019-07-27T15:00:33Z" depends-on-methods="com.smarttech.AmazonLogin.Test11" finished-at="2019-07-27T15:01:09Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
-              <![CDATA[Index: 0, Size: 0]]>
+              <![CDATA[element not interactable
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MOHAMMEDALA5F0B', ip: '10.211.55.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\MOHAMM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54091}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: cabf82f8d48cb6417e25ae6f50fc9d3f]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
-	at java.util.ArrayList.rangeCheck(Unknown Source)
-	at java.util.ArrayList.get(Unknown Source)
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MOHAMMEDALA5F0B', ip: '10.211.55.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\MOHAMM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54091}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: cabf82f8d48cb6417e25ae6f50fc9d3f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-	at com.sun.proxy.$Proxy11.get(Unknown Source)
-	at com.smarttech.AmazonLogin.Test13(AmazonLogin.java:144)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.smarttech.AmazonLogin.Test12(AmazonLogin.java:135)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -101,11 +126,41 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test12 -->
+        <test-method status="SKIP" signature="Test13()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="Test13" duration-ms="0" started-at="2019-07-27T15:01:10Z" depends-on-methods="com.smarttech.AmazonLogin.Test12" finished-at="2019-07-27T15:01:10Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AmazonLogin.Test13()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AmazonLogin.Test13()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1067)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test13 -->
-        <test-method status="FAIL" signature="teardown()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="teardown" is-config="true" duration-ms="0" started-at="2019-07-06T11:04:42Z" finished-at="2019-07-06T11:04:42Z">
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02]" name="teardown" is-config="true" duration-ms="0" started-at="2019-07-27T15:01:10Z" finished-at="2019-07-27T15:01:10Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException

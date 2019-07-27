@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-amazon_Automation_Test_Suite">
-                    <span>\\MAC\Home\Documents\Project\Automation\testng.xml</span>
+                    <span>C:\Users\mohammedalam\git\master\Selenium.Automation\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods, 1 failed,   12 passed</span>
+                    <span class="method-stats">13 methods, 1 failed,  1 skipped,  11 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,10 +101,24 @@
                     <div class="method-list-content failed suite-amazon_Automation_Test_Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-amazon_Automation_Test_Suite" title="com.smarttech.AmazonLogin" hash-for-method="Test13">Test13</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-amazon_Automation_Test_Suite" title="com.smarttech.AmazonLogin" hash-for-method="Test12">Test12</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-amazon_Automation_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-amazon_Automation_Test_Suite" class="hide-methods skipped suite-amazon_Automation_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-amazon_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-amazon_Automation_Test_Suite" class="show-methods skipped suite-amazon_Automation_Test_Suite"> (show)</a> <!-- show-methods skipped suite-amazon_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-amazon_Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-amazon_Automation_Test_Suite" title="com.smarttech.AmazonLogin" hash-for-method="Test13">Test13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-amazon_Automation_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -121,11 +135,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-amazon_Automation_Test_Suite" title="com.smarttech.AmazonLogin" hash-for-method="Test11">Test11</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-amazon_Automation_Test_Suite" title="com.smarttech.AmazonLogin" hash-for-method="Test12">Test12</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -193,19 +202,40 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Test13">
-                  </a> <!-- Test13 -->
-                  <span class="method-name">Test13</span>
-                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
-	at java.util.ArrayList.rangeCheck(Unknown Source)
-	at java.util.ArrayList.get(Unknown Source)
+                  <a name="Test12">
+                  </a> <!-- Test12 -->
+                  <span class="method-name">Test12</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MOHAMMEDALA5F0B&apos;, ip: &apos;10.211.55.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\MOHAMM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54091}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: cabf82f8d48cb6417e25ae6f50fc9d3f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-	at com.sun.proxy.$Proxy11.get(Unknown Source)
-	at com.smarttech.AmazonLogin.Test13(AmazonLogin.java:144)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.smarttech.AmazonLogin.Test12(AmazonLogin.java:135)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -236,6 +266,41 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-amazon_Automation_Test_Suite-class-failed -->
+          <div class="suite-amazon_Automation_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.smarttech.AmazonLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test13">
+                  </a> <!-- Test13 -->
+                  <span class="method-name">Test13</span>
+                  <div class="stack-trace">java.lang.Throwable: Method AmazonLogin.Test13()[pri:0, instance:com.smarttech.AmazonLogin@457e2f02] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1067)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-amazon_Automation_Test_Suite-class-skipped -->
           <div class="suite-amazon_Automation_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -254,13 +319,6 @@
                   <a name="Test11">
                   </a> <!-- Test11 -->
                   <span class="method-name">Test11</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Test12">
-                  </a> <!-- Test12 -->
-                  <span class="method-name">Test12</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -331,7 +389,7 @@
         </div> <!-- panel amazon_Automation_Test_Suite -->
         <div panel-name="test-xml-amazon_Automation_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">\\MAC\Home\Documents\Project\Automation\testng.xml</span>
+            <span class="header-content">C:\Users\mohammedalam\git\master\Selenium.Automation\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -387,55 +445,55 @@ data.addRows(13);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'setUp')
 data.setCell(0, 2, 'com.smarttech.AmazonLogin')
-data.setCell(0, 3, 28072);
+data.setCell(0, 3, 38717);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Test12')
 data.setCell(1, 2, 'com.smarttech.AmazonLogin')
-data.setCell(1, 3, 18025);
+data.setCell(1, 3, 36019);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Test13')
+data.setCell(2, 1, 'Test3')
 data.setCell(2, 2, 'com.smarttech.AmazonLogin')
-data.setCell(2, 3, 16849);
+data.setCell(2, 3, 6670);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Test3')
+data.setCell(3, 1, 'Test5')
 data.setCell(3, 2, 'com.smarttech.AmazonLogin')
-data.setCell(3, 3, 4256);
+data.setCell(3, 3, 3857);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Test5')
+data.setCell(4, 1, 'Test4')
 data.setCell(4, 2, 'com.smarttech.AmazonLogin')
-data.setCell(4, 3, 2478);
+data.setCell(4, 3, 3636);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Test4')
+data.setCell(5, 1, 'Test2')
 data.setCell(5, 2, 'com.smarttech.AmazonLogin')
-data.setCell(5, 3, 1897);
+data.setCell(5, 3, 1705);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Test2')
+data.setCell(6, 1, 'Test6')
 data.setCell(6, 2, 'com.smarttech.AmazonLogin')
-data.setCell(6, 3, 1090);
+data.setCell(6, 3, 915);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Test6')
+data.setCell(7, 1, 'Test7')
 data.setCell(7, 2, 'com.smarttech.AmazonLogin')
-data.setCell(7, 3, 1054);
+data.setCell(7, 3, 293);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'Test7')
+data.setCell(8, 1, 'Test8')
 data.setCell(8, 2, 'com.smarttech.AmazonLogin')
-data.setCell(8, 3, 273);
+data.setCell(8, 3, 185);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'Test8')
+data.setCell(9, 1, 'Test10')
 data.setCell(9, 2, 'com.smarttech.AmazonLogin')
-data.setCell(9, 3, 184);
+data.setCell(9, 3, 174);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'Test10')
+data.setCell(10, 1, 'Test9')
 data.setCell(10, 2, 'com.smarttech.AmazonLogin')
-data.setCell(10, 3, 135);
+data.setCell(10, 3, 151);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'Test9')
+data.setCell(11, 1, 'Test11')
 data.setCell(11, 2, 'com.smarttech.AmazonLogin')
-data.setCell(11, 3, 97);
+data.setCell(11, 3, 91);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'Test11')
+data.setCell(12, 1, 'Test13')
 data.setCell(12, 2, 'com.smarttech.AmazonLogin')
-data.setCell(12, 3, 73);
+data.setCell(12, 3, 0);
 window.suiteTableData['amazon_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-amazon_Automation_Test_Suite'}
 return data;
 }
@@ -473,63 +531,59 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">setUp</span>
-                <span class="method-start">826 ms</span>
+                <span class="method-start">960 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test2</span>
-                <span class="method-start">28906 ms</span>
+                <span class="method-start">39692 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test3</span>
-                <span class="method-start">29998 ms</span>
+                <span class="method-start">41408 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test4</span>
-                <span class="method-start">34257 ms</span>
+                <span class="method-start">48084 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test5</span>
-                <span class="method-start">36155 ms</span>
+                <span class="method-start">51727 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test6</span>
-                <span class="method-start">38634 ms</span>
+                <span class="method-start">55590 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test7</span>
-                <span class="method-start">39689 ms</span>
+                <span class="method-start">56506 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test8</span>
-                <span class="method-start">39963 ms</span>
+                <span class="method-start">56801 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test9</span>
-                <span class="method-start">40148 ms</span>
+                <span class="method-start">56991 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test10</span>
-                <span class="method-start">40246 ms</span>
+                <span class="method-start">57148 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test11</span>
-                <span class="method-start">40382 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Test12</span>
-                <span class="method-start">40455 ms</span>
+                <span class="method-start">57328 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">Test13</span>
-                <span class="method-start">58482 ms</span>
+                <span class="method-name">Test12</span>
+                <span class="method-start">57424 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">teardown</span>
-                <span class="method-start">76149 ms</span>
+                <span class="method-start">94717 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

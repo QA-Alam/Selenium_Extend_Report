@@ -38,10 +38,10 @@ public class BaseWithPF {
 		} catch (Throwable e) {
 
 		}
-		e_driver = new EventFiringWebDriver(driver);
+	/*	e_driver = new EventFiringWebDriver(driver);
 		eventListener = new WebEventListener();
 		e_driver.register(eventListener);
-		driver = e_driver;
+		driver = e_driver; */
 		driver.manage().deleteAllCookies();
 
 		driver.manage().timeouts().pageLoadTimeout(BaseWithPF.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
